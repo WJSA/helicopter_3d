@@ -22,7 +22,7 @@ const Model = () => {
     mount.current.appendChild(renderer.domElement);
 
     const loader = new GLTFLoader();
-    loader.load('./src/assets/helicopter_new.glb', (gltf) => {
+    loader.load('https://api.vercel.com/now/files/d78aaa9acae23eb2a3c940f122ffadd4bf9ae223/helicopter_new.glb', (gltf) => {
       gltf.scene.traverse((child) => {
         if (child.isMesh) {
           child.material.transparent = true;
