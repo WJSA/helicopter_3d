@@ -22,7 +22,7 @@ const Model = () => {
     mount.current.appendChild(renderer.domElement);
 
     const loader = new GLTFLoader();
-    loader.load('./public/assets/helicopter_new.glb', (gltf) => {
+    loader.load('./src/assets/helicopter_new.glb', (gltf) => {
       gltf.scene.traverse((child) => {
         if (child.isMesh) {
           child.material.transparent = true;
