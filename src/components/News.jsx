@@ -35,7 +35,7 @@ const News = () => {
       </button>
 
       <div className='fixed right-12 top-1/2 transform -translate-y-1/2'>
-        <img src='./src/assets/facebook.png' className='mb-5'/>
+        <img src='https://api.vercel.com/now/files/b6b9765db4323feb8d5ff90e0e16ddc722c826b7/facebook.png' className='mb-5'/>
         <img src='./src/assets/twitter.png' className='mt-5 mb-5'/>
         <img src='./src/assets/instagram.png' className='mt-5'/>  
       </div>
