@@ -22,7 +22,7 @@ const Navbar = () => {
           Location
         </NavLink>
       </nav>
-      <NavLink to='/' className='flex items-center justify-end text-lg text-black'>
+      <NavLink to='/projects' className='flex items-center justify-end text-lg text-black'>
         <button className="px-4 py-2 text-white bg-black rounded-xl hover:bg-gray-800 focus:outline-none focus:border-gray-900 focus:ring focus:ring-gray-300 text-2xl ">
           CONTACT
         </button>
