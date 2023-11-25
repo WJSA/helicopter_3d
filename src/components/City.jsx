@@ -30,7 +30,7 @@ const City = () => {
     <section className='w-full h-screen relative top-18 overflow-hidden'>
       <div className='absolute top-1/2 left-0 right-0 z-10 flex items-center justify-center'>
         <img
-          src='./z/assets/bg233 1.png'
+          src='./src/assets/bg233 1.png'
           alt='City Image'
           className='z-4'
         />
