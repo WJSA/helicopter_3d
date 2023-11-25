@@ -23,7 +23,7 @@ const News = () => {
       {/* Texto CITY */}
       <div className='absolute top-1/3 px-16 z-9 flex items-end justify-center'>
         <img
-          src='./public/assets/NEWS.png'
+          src='./dist/NEWS.png'
           alt='City Image'
           style={{ transform: `scale(${scaleFactor})` }}
         />
@@ -35,9 +35,9 @@ const News = () => {
       </button>
 
       <div className='fixed right-12 top-1/2 transform -translate-y-1/2'>
-        <img src='./public/assets/facebook.png' className='mb-5'/>
-        <img src='./public/assets/twitter.png' className='mt-5 mb-5'/>
-        <img src='./public/assets/instagram.png' className='mt-5'/>  
+        <img src='./dist/facebook.png' className='mb-5'/>
+        <img src='./dist/twitter.png' className='mt-5 mb-5'/>
+        <img src='./dist//instagram.png' className='mt-5'/>  
       </div>
       
     </section>
